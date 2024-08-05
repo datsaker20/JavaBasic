@@ -1,11 +1,11 @@
 package ClassOOP;
 
 public class School {
+	int sum (int a, int b){
+		return a + b;
+	}
 	public static void main(String[] args) {
-		Student dat = new Student();
-		dat.name = "Đạt";
-		dat.age = 23;
-		System.out.println(dat.name);
-		System.out.println(dat.age);
+		School s = new School(); // constructor
+	
 	}
 }
